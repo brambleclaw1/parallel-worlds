@@ -9,18 +9,81 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "OtherworldOcean",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherworld_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/biome/otherworld_ocean.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Offland Biomes"
+    },
+    {
+      "name": "OtherworldWarmOcean",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherworld_warm_ocean",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/biome/otherworld_warm_ocean.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Offland Biomes"
+    },
+    {
+      "name": "Otherworld",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherworld",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/dimension/otherworld.json",
+          "src/main/java/net/mcreator/parallelworlds/world/dimension/OtherworldDimension.java",
+          "src/main/resources/data/parallel_worlds/dimension_type/otherworld.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "biome.parallel_worlds.otherworld_ocean": "Otherworld Ocean",
+      "biome.parallel_worlds.otherworld_warm_ocean": "Otherworld Warm Ocean",
       "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Biomes",
+        "children": [
+          {
+            "name": "Otherworld",
+            "children": [
+              {
+                "name": "Offland Biomes",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structures",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "parallel_worlds",
