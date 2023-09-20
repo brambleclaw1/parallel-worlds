@@ -1,0 +1,43 @@
+{
+  "mod_elements": [
+    {
+      "name": "ParallelWorlds",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parallel_worlds",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "parallel_worlds",
+    "modName": "Parallel Worlds",
+    "version": "1.0.0",
+    "author": "gavin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.parallelworlds",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
