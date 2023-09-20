@@ -1,0 +1,26 @@
+{
+  "modulo": {
+    "sounds": [
+      {
+        "name": "parallel_worlds:modulo",
+        "stream": true
+      }
+    ]
+  },
+  "far_lands": {
+    "sounds": [
+      {
+        "name": "parallel_worlds:far_lands",
+        "stream": true
+      }
+    ]
+  },
+  "echo_in_the_wind_epic": {
+    "sounds": [
+      {
+        "name": "parallel_worlds:echo_in_the_wind_epic",
+        "stream": true
+      }
+    ]
+  }
+}

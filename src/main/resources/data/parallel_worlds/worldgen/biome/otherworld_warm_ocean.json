@@ -14,12 +14,12 @@
       "max_delay": 24000,
       "replace_current_music": true
     },
-    "foliage_color": 10387789,
-    "grass_color": 9470285,
+    "foliage_color": -9328819,
+    "grass_color": -7423631,
     "sky_color": 7972607,
     "fog_color": 12638463,
-    "water_color": -16724788,
-    "water_fog_color": -16724788
+    "water_color": -12331538,
+    "water_fog_color": -16507085
   },
   "spawners": {
     "monster": [
@@ -157,7 +157,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "minecraft:seagrass_simple"
+    ],
     []
   ]
 }

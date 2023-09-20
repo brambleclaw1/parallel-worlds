@@ -10,14 +10,22 @@
       "value": "Blocks.STONE#0"
     },
     "underwaterBlock": {
-      "value": "Blocks.GRAVEL"
+      "value": "Blocks.SAND#0"
+    },
+    "grassColor": {
+      "value": -7423631,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9328819,
+      "falpha": 0.0
     },
     "waterColor": {
-      "value": -16724788,
+      "value": -12331538,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16724788,
+      "value": -16507085,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -81,7 +89,8 @@
     },
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "TallSeagrassLush"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

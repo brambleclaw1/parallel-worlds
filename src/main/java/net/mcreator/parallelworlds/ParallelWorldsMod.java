@@ -29,6 +29,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.parallelworlds.init.ParallelWorldsModSounds;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +48,7 @@ public class ParallelWorldsMod {
 	public ParallelWorldsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		ParallelWorldsModSounds.REGISTRY.register(bus);
 
 	}
 
