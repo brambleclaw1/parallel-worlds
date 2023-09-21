@@ -4,10 +4,7 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:OtherworldOcean"
-      },
-      {
-        "value": "CUSTOM:OtherworldWarmOcean"
+        "value": "ocean"
       }
     ],
     "worldGenType": "Normal world gen",

@@ -22,5 +22,13 @@
         "stream": true
       }
     ]
+  },
+  "minecraft_epic": {
+    "sounds": [
+      {
+        "name": "parallel_worlds:minecraft_epic",
+        "stream": true
+      }
+    ]
   }
 }

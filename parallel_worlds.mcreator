@@ -11,34 +11,6 @@
       }
     },
     {
-      "name": "OtherworldOcean",
-      "type": "biome",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "otherworld_ocean",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/parallel_worlds/worldgen/biome/otherworld_ocean.json"
-        ]
-      },
-      "path": "~/Biomes/Otherworld/Offland Biomes"
-    },
-    {
-      "name": "OtherworldWarmOcean",
-      "type": "biome",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "otherworld_warm_ocean",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/parallel_worlds/worldgen/biome/otherworld_warm_ocean.json"
-        ]
-      },
-      "path": "~/Biomes/Otherworld/Offland Biomes"
-    },
-    {
       "name": "Otherworld",
       "type": "dimension",
       "compiles": true,
@@ -78,13 +50,20 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "minecraft_epic",
+      "files": [
+        "minecraft_epic"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "biome.parallel_worlds.otherworld_ocean": "Otherworld Ocean",
+      "subtitles.minecraft_epic": "",
       "subtitles.far_lands": "",
-      "biome.parallel_worlds.otherworld_warm_ocean": "Otherworld Warm Ocean",
       "subtitles.modulo": "",
       "subtitles.echo_in_the_wind_epic": "",
       "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
@@ -98,12 +77,7 @@
         "children": [
           {
             "name": "Otherworld",
-            "children": [
-              {
-                "name": "Offland Biomes",
-                "children": []
-              }
-            ]
+            "children": []
           }
         ]
       },
