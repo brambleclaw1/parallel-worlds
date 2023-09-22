@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "parallel_worlds:block/amber_block",
+    "up": "parallel_worlds:block/amber_block",
+    "north": "parallel_worlds:block/amber_block",
+    "east": "parallel_worlds:block/amber_block",
+    "south": "parallel_worlds:block/amber_block",
+    "west": "parallel_worlds:block/amber_block",
+    "particle": "parallel_worlds:block/amber_block"
+  },
+  "render_type": "solid"
+}

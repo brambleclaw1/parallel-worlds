@@ -1,0 +1,17 @@
+{
+  "feature": "parallel_worlds:amber_geode",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -64
+        },
+        "max_inclusive": {
+          "absolute": 64
+        }
+      }
+    }
+  ]
+}

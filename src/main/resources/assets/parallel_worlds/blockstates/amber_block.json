@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "parallel_worlds:block/amber_block"
+    }
+  }
+}

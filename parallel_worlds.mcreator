@@ -3,6 +3,7 @@
     {
       "name": "ParallelWorlds",
       "type": "tab",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "parallel_worlds",
@@ -13,6 +14,7 @@
     {
       "name": "Otherworld",
       "type": "dimension",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "otherworld",
@@ -21,6 +23,39 @@
           "src/main/resources/data/parallel_worlds/dimension_type/otherworld.json",
           "src/main/resources/data/parallel_worlds/dimension/otherworld.json",
           "src/main/java/net/mcreator/parallelworlds/world/dimension/OtherworldDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "AmberBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/parallel_worlds/blockstates/amber_block.json",
+          "src/main/resources/assets/parallel_worlds/models/block/amber_block.json",
+          "src/main/java/net/mcreator/parallelworlds/block/AmberBlockBlock.java",
+          "src/main/resources/assets/parallel_worlds/models/item/amber_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AmberGeode",
+      "type": "feature",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_geode",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/amber_geode.json",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/amber_geode.json",
+          "src/main/java/net/mcreator/parallelworlds/world/features/AmberGeodeFeature.java",
+          "src/main/resources/data/parallel_worlds/forge/biome_modifier/amber_geode_biome_modifier.json"
         ]
       }
     }
@@ -65,6 +100,7 @@
       "subtitles.minecraft_epic": "",
       "subtitles.far_lands": "",
       "subtitles.modulo": "",
+      "block.parallel_worlds.amber_block": "Amber Block",
       "subtitles.echo_in_the_wind_epic": "",
       "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
     }
@@ -83,6 +119,10 @@
       },
       {
         "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Blocks",
         "children": []
       }
     ]
