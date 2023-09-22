@@ -58,6 +58,22 @@
           "src/main/resources/data/parallel_worlds/forge/biome_modifier/amber_geode_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "AmethystForests",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_forests",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/biome/amethyst_forests.json",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/amethyst_forests_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/amethyst_forests_tree.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld"
     }
   ],
   "variable_elements": [],
@@ -101,6 +117,7 @@
       "subtitles.far_lands": "",
       "subtitles.modulo": "",
       "block.parallel_worlds.amber_block": "Amber Block",
+      "biome.parallel_worlds.amethyst_forests": "Amethyst Forests",
       "subtitles.echo_in_the_wind_epic": "",
       "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
     }

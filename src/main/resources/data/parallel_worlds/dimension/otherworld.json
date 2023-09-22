@@ -6,7 +6,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "ocean",
+          "biome": "parallel_worlds:amethyst_forests",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
@@ -383,7 +383,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "ocean"
+                "parallel_worlds:amethyst_forests"
               ]
             },
             "then_run": {
@@ -427,7 +427,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "minecraft:amethyst_block"
                           }
                         }
                       ]
@@ -445,7 +445,7 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:air"
+                        "Name": "minecraft:amethyst_block"
                       }
                     }
                   }
