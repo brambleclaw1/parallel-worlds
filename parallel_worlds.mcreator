@@ -20,9 +20,9 @@
       "registry_name": "otherworld",
       "metadata": {
         "files": [
-          "src/main/resources/data/parallel_worlds/dimension_type/otherworld.json",
           "src/main/resources/data/parallel_worlds/dimension/otherworld.json",
-          "src/main/java/net/mcreator/parallelworlds/world/dimension/OtherworldDimension.java"
+          "src/main/java/net/mcreator/parallelworlds/world/dimension/OtherworldDimension.java",
+          "src/main/resources/data/parallel_worlds/dimension_type/otherworld.json"
         ]
       }
     },
@@ -68,9 +68,28 @@
       "registry_name": "amethyst_forests",
       "metadata": {
         "files": [
-          "src/main/resources/data/parallel_worlds/worldgen/biome/amethyst_forests.json",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/AmethystForestsTrunkDecorator.java",
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/amethyst_forests_tree.json",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/AmethystForestsFruitDecorator.java",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/AmethystForestsLeaveDecorator.java",
           "src/main/resources/data/parallel_worlds/worldgen/configured_feature/amethyst_forests_tree.json",
-          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/amethyst_forests_tree.json"
+          "src/main/resources/data/parallel_worlds/worldgen/biome/amethyst_forests.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld"
+    },
+    {
+      "name": "AmberTaigas",
+      "type": "biome",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_taigas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/amber_taigas_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/amber_taigas_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/biome/amber_taigas.json"
         ]
       },
       "path": "~/Biomes/Otherworld"
@@ -118,6 +137,7 @@
       "subtitles.modulo": "",
       "block.parallel_worlds.amber_block": "Amber Block",
       "biome.parallel_worlds.amethyst_forests": "Amethyst Forests",
+      "biome.parallel_worlds.amber_taigas": "Amethyst Forests",
       "subtitles.echo_in_the_wind_epic": "",
       "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
     }
