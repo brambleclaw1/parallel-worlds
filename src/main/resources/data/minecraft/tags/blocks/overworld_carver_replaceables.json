@@ -4,6 +4,8 @@
     "minecraft:stone",
     "minecraft:grass_block",
     "parallel_worlds:amber_block",
-    "minecraft:amethyst_block"
+    "minecraft:amethyst_block",
+    "minecraft:obsidian",
+    "minecraft:magma_block"
   ]
 }

@@ -8,6 +8,18 @@
       },
       {
         "value": "CUSTOM:AmberTaigas"
+      },
+      {
+        "value": "CUSTOM:ArcticTaigas"
+      },
+      {
+        "value": "CUSTOM:DeathForest"
+      },
+      {
+        "value": "CUSTOM:MagmaJungle"
+      },
+      {
+        "value": "CUSTOM:ObsidianBirch"
       }
     ],
     "worldGenType": "Normal world gen",
