@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:AmethystForests"
+      },
+      {
+        "value": "CUSTOM:AmberTaigas"
       }
     ],
     "worldGenType": "Normal world gen",

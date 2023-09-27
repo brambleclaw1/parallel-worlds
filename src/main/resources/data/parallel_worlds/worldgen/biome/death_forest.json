@@ -1,6 +1,6 @@
 {
   "has_precipitation": true,
-  "temperature": 0.25,
+  "temperature": 0.7,
   "downfall": 0.8,
   "effects": {
     "music": {
@@ -9,8 +9,8 @@
       "max_delay": 24000,
       "replace_current_music": true
     },
-    "foliage_color": -9919388,
-    "grass_color": -7948413,
+    "foliage_color": -10899920,
+    "grass_color": -11503054,
     "sky_color": 7972607,
     "fog_color": 12638463,
     "water_color": -12618012,
@@ -99,16 +99,10 @@
         "maxCount": 4
       },
       {
-        "type": "fox",
-        "weight": 8,
-        "minCount": 2,
+        "type": "allay",
+        "weight": 20,
+        "minCount": 4,
         "maxCount": 4
-      },
-      {
-        "type": "rabbit",
-        "weight": 4,
-        "minCount": 2,
-        "maxCount": 3
       }
     ],
     "ambient": [
@@ -145,9 +139,7 @@
     [
       "minecraft:lake_lava_underground"
     ],
-    [
-      "minecraft:forest_rock"
-    ],
+    [],
     [],
     [],
     [],
@@ -172,12 +164,8 @@
     [],
     [],
     [
-      "parallel_worlds:amber_taigas_tree",
+      "parallel_worlds:death_forest_tree",
       "minecraft:forest_flowers",
-      "minecraft:patch_large_fern",
-      "minecraft:patch_grass_taiga_2",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
       "minecraft:patch_grass_forest"
     ],
     []

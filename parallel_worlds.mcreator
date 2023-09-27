@@ -57,7 +57,8 @@
           "src/main/java/net/mcreator/parallelworlds/world/features/AmberGeodeFeature.java",
           "src/main/resources/data/parallel_worlds/forge/biome_modifier/amber_geode_biome_modifier.json"
         ]
-      }
+      },
+      "path": "~/Features"
     },
     {
       "name": "AmethystForests",
@@ -76,7 +77,7 @@
           "src/main/resources/data/parallel_worlds/worldgen/biome/amethyst_forests.json"
         ]
       },
-      "path": "~/Biomes/Otherworld"
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
     },
     {
       "name": "AmberTaigas",
@@ -92,7 +93,74 @@
           "src/main/resources/data/parallel_worlds/worldgen/biome/amber_taigas.json"
         ]
       },
-      "path": "~/Biomes/Otherworld"
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
+    },
+    {
+      "name": "ObsidianBirch",
+      "type": "biome",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/obsidian_birch_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/biome/obsidian_birch.json",
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/obsidian_birch_tree.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
+    },
+    {
+      "name": "ArcticTaigas",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arctic_taigas",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/arctic_taigas_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/biome/arctic_taigas.json",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/arctic_taigas_tree.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
+    },
+    {
+      "name": "DeathForest",
+      "type": "biome",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/death_forest_tree.json",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/DeathForestFruitDecorator.java",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/DeathForestLeaveDecorator.java",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/death_forest_tree.json",
+          "src/main/java/net/mcreator/parallelworlds/world/features/treedecorators/DeathForestTrunkDecorator.java",
+          "src/main/resources/data/parallel_worlds/worldgen/biome/death_forest.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
+    },
+    {
+      "name": "MagmaJungle",
+      "type": "biome",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magma_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/parallel_worlds/worldgen/placed_feature/magma_jungle_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/configured_feature/magma_jungle_tree.json",
+          "src/main/resources/data/parallel_worlds/worldgen/biome/magma_jungle.json"
+        ]
+      },
+      "path": "~/Biomes/Otherworld/Woodland Biomes"
     }
   ],
   "variable_elements": [],
@@ -132,14 +200,18 @@
   ],
   "language_map": {
     "en_us": {
+      "biome.parallel_worlds.magma_jungle": "Magma Jungle",
+      "biome.parallel_worlds.amethyst_forests": "Amethyst Forests",
+      "biome.parallel_worlds.amber_taigas": "Amber Taigas",
+      "subtitles.echo_in_the_wind_epic": "",
+      "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds",
+      "biome.parallel_worlds.death_forest": "Death Forest",
       "subtitles.minecraft_epic": "",
       "subtitles.far_lands": "",
       "subtitles.modulo": "",
       "block.parallel_worlds.amber_block": "Amber Block",
-      "biome.parallel_worlds.amethyst_forests": "Amethyst Forests",
-      "biome.parallel_worlds.amber_taigas": "Amethyst Forests",
-      "subtitles.echo_in_the_wind_epic": "",
-      "item_group.parallel_worlds.parallel_worlds": "Parallel Worlds"
+      "biome.parallel_worlds.arctic_taigas": "Arctic Taigas",
+      "biome.parallel_worlds.obsidian_birch": "Obsidian Birch"
     }
   },
   "foldersRoot": {
@@ -150,7 +222,12 @@
         "children": [
           {
             "name": "Otherworld",
-            "children": []
+            "children": [
+              {
+                "name": "Woodland Biomes",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -160,6 +237,10 @@
       },
       {
         "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Features",
         "children": []
       }
     ]
