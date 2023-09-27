@@ -161,6 +161,33 @@
         ]
       },
       "path": "~/Biomes/Otherworld/Woodland Biomes"
+    },
+    {
+      "name": "RenderSkyInForest",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "render_sky",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/parallelworlds/procedures/RenderSkyInForestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "pose",
+            "type": "pose"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
