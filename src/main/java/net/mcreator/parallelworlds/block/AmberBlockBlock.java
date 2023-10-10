@@ -19,7 +19,8 @@ import java.util.Collections;
 
 public class AmberBlockBlock extends Block {
 	public AmberBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(1f, 10f).lightLevel(s -> 7).requiresCorrectToolForDrops().speedFactor(2f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
+		super(BlockBehaviour.Properties.of().sound(SoundType.AMETHYST).strength(1f, 10f).lightLevel(s -> 7).requiresCorrectToolForDrops().speedFactor(1.6f).jumpFactor(0.1f).hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
